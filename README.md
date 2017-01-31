@@ -4,6 +4,8 @@ pyPlaylist is a light-weight Web-based playlist tool for controlling UNIX/Linux'
 
 Use this tool to easily play a range of streaming radio stations or music playlists (mp3, flac etc).
 
+This fork ships with jQuery and Bootstrap, no need for Nodejs.
+
 ## Installation
 
 * Install MPC / MPD
@@ -20,16 +22,6 @@ brew install mpd mpc
 
 Then you will find the config file in `/usr/local/etc/mpd/` edit the config file to enable playlists and make a directory of `~/.mpd/`.
 
-
-* Install bower components:
-
-Bower installs client dependencies for Bootstrap and jQuery. 
-
-```
-# bower install
-```
-
-*NB: If you are using a low powered computer such as a Raspberry PI and do not want to install node.js, then you can perform this step on another computer and copy the bower_components folder across with scp.*
 
 * Installing python libraries
 
